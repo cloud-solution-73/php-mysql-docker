@@ -1,0 +1,14 @@
+version:0.0
+ os: linux
+ file:
+  - source: /
+    destination: /var/www/php
+  # hooks:
+  #   AfterInstall:
+  #     - location: scripts/install_nginx.sh
+  #       timeout: 300
+  #       runas: root
+  #   ApplicationStart:
+  #     - location: script/start_nginx.sh
+  #       timeout:300
+  #       runas: root
